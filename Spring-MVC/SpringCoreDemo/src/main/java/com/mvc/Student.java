@@ -3,9 +3,9 @@ package com.mvc;
 public class Student {
 	private Integer studentId;
 	private String studentname;
-	private String adress;
-	
-	
+	private String adress;	
+
+
 	public Student(Integer studentId, String studentname, String adress) {
 		super();
 		this.studentId = studentId;
@@ -33,6 +33,10 @@ public class Student {
 		this.adress = adress;
 	}
 	
+	@Override
+	public String toString() {
+		return "Student [studentId=" + studentId + ", studentname=" + studentname + ", adress=" + adress + "]";
+	}
 	
 
 }
