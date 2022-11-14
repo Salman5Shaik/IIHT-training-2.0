@@ -10,12 +10,12 @@
 >
 
 
- <bean class="com.mvc.Student">
+ <bean class="com.mvc.Student" name="student1">
  	<property name="studentId">
  		<value>10001</value>
  	</property>
  	
- 	<property name="studentName">
+ 	<property name="studentname">
  		<value>Salman</value>
  	</property>
  	
