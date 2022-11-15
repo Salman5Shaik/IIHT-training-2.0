@@ -35,6 +35,13 @@
  					<entry key="PHD" value="DU" />
  				</map>
  			</property>
+ 			
+ 			<property name="props" >
+ 				<props>
+ 						<prop key="Role">Developer</prop>
+ 						<prop key="technology">Java and JavaScript</prop>
+ 				</props>
+ 			</property>
  		
  		</bean>
  		

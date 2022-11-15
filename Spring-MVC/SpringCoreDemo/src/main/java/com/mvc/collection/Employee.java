@@ -2,6 +2,7 @@ package com.mvc.collection;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.Set;
 
 public class Employee {
@@ -10,18 +11,37 @@ public class Employee {
 	private List<String> phones;
 	private Set<String> addresses;
 	private Map<String, String> courses;
+	private Properties props;
 
 	public Employee() {
 		super();
 	}
 
-	public Employee(String employeeName, List<String> phones, Set<String> addresses, Map<String, String> courses) {
+	
+
+	public Employee(String employeeName, List<String> phones, Set<String> addresses, Map<String, String> courses,
+			Properties props) {
 		super();
 		EmployeeName = employeeName;
 		this.phones = phones;
 		this.addresses = addresses;
 		this.courses = courses;
+		this.props = props;
 	}
+
+	
+
+	public Properties getProps() {
+		return props;
+	}
+
+
+
+	public void setProps(Properties props) {
+		this.props = props;
+	}
+
+
 
 	public String getEmployeeName() {
 		return EmployeeName;
@@ -55,10 +75,14 @@ public class Employee {
 		this.courses = courses;
 	}
 
+
+
 	@Override
 	public String toString() {
 		return "Employee [EmployeeName=" + EmployeeName + ", phones=" + phones + ", addresses=" + addresses
-				+ ", courses=" + courses + "]";
+				+ ", courses=" + courses + ", props=" + props + "]";
 	}
+
+	
 
 }
