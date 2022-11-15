@@ -22,6 +22,8 @@
  			<property name="address" value="Chennai"></property> 
  		</bean>
  		
+ 		<bean class="com.mvc.Student" name="student3" p:studentId="99999" p:studentname="Ashok Kumar" p:address="Kolkata" />
+ 		
 
 </beans>
  
