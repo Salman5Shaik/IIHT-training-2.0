@@ -3,13 +3,13 @@ package com.mvc.ReferenceInjectionTest;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.mvc.ReferenceInjection.Object1;
 
 public class RefTesting {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		
+		@SuppressWarnings("resource")
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/mvc/ReferenceInjectionTest/RefConfigTest.xml");
 		StudentDetails temp = (StudentDetails) context.getBean("sd1");
 		System.out.println(temp.getStudentName());

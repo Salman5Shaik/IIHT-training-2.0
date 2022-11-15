@@ -10,7 +10,7 @@
 >
 
 
- 		<bean class="com.mvc.ReferenceInjectionTest.StudentSubjects" name="ss2">
+ 		<bean class="com.mvc.ReferenceInjectionTest.StudentSubjects" name="ss3">
  			<property name="subject1" value="maths" />
  			<property name="subject2" value="computers" />
  			<property name="subject3" value="economics" />
@@ -23,7 +23,7 @@
  			<property name="studentAge" value="18" />
  			<property name="studentCity" value="Agra" />
  			<property name="ss">
- 				<ref bean="ss2" />
+ 				<ref bean="ss3" />
  			</property>
  		</bean>
  		

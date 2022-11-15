@@ -61,5 +61,6 @@ public class StudentDetails {
 	public void setSs(StudentSubjects ss) {
 		this.ss = ss;
 	}
+	//student details
 
 }

@@ -50,5 +50,6 @@ public class StudentSubjects {
 	public void setSubject4(String subject4) {
 		this.subject4 = subject4;
 	}
-
+	
+	//student subjects
 }
