@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org./schema/context"
+ xmlns:p="http://www.springframework.org./schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org./schema/context
+ http://www.springframework.org./schema/context/spring-context.xsd"
+>
+
+
+ 		<bean class="com.mvc.ReferenceInjectionTest.StudentSubjects" name="ss2">
+ 			<property name="subject1" value="maths" />
+ 			<property name="subject2" value="computers" />
+ 			<property name="subject3" value="economics" />
+ 			<property name="subject4" value="arts" />
+ 		</bean>
+ 		
+ 		<bean class="com.mvc.ReferenceInjectionTest.StudentDetails" name="sd1">
+ 			<property name="studentName" value="Vinay" />
+ 			<property name="studentClass" value="12" />
+ 			<property name="studentAge" value="18" />
+ 			<property name="studentCity" value="Agra" />
+ 			<property name="ss">
+ 				<ref bean="ss2" />
+ 			</property>
+ 		</bean>
+ 		
+ 	
+ 		
+
+</beans>
+ 
+ 
