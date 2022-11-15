@@ -10,17 +10,18 @@
 >
 
 
- <bean class="com.mvc.Student" name="student1">
- 	<property name="studentId" value="18456">
- 	</property>
- 	
- 	<property name="studentname" value="Agarwal">
- 	</property>
- 	
- 	<property name="address" value="Hyderabad">
- 	</property>
- 
- </bean>
+ 		<bean class="com.mvc.Student" name="student1">
+ 			<property name="studentId" value="18456"></property> 	
+ 			<property name="studentname" value="Agarwal"></property> 	
+ 			<property name="address" value="Hyderabad"></property> 
+ 		</bean>
+ 		
+ 		<bean class="com.mvc.Student" name="student2">
+ 			<property name="studentId" value="12347"></property> 	
+ 			<property name="studentname" value="Dubey"></property> 	
+ 			<property name="address" value="Chennai"></property> 
+ 		</bean>
+ 		
 
 </beans>
  
