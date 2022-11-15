@@ -11,16 +11,13 @@
 
 
  <bean class="com.mvc.Student" name="student1">
- 	<property name="studentId">
- 		<value>10001</value>
+ 	<property name="studentId" value="18456">
  	</property>
  	
- 	<property name="studentname">
- 		<value>Salman</value>
+ 	<property name="studentname" value="Agarwal">
  	</property>
  	
- 	<property name="address">
- 		<value>New York</value>
+ 	<property name="address" value="Hyderabad">
  	</property>
  
  </bean>

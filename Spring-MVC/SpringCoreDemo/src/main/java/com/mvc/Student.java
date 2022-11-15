@@ -23,18 +23,21 @@ public class Student {
 		return studentId;
 	}
 	public void setStudentId(Integer studentId) {
+		System.out.println("setting student id");
 		this.studentId = studentId;
 	}
 	public String getStudentname() {
 		return studentname;
 	}
 	public void setStudentname(String studentname) {
+		System.out.println("setting student name");
 		this.studentname = studentname;
 	}
 	public String getAddress() {
 		return address;
 	}
 	public void setAddress(String address) {
+		System.out.println("setting student address");
 		this.address = address;
 	}
 	
