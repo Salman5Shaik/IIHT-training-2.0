@@ -43,6 +43,11 @@
  			<constructor-arg value="Pranay" />
  		</bean>
  		
+ 		<bean class="com.mvc.constructorinjection.Addition" name="add1">
+ 			<constructor-arg value="100" type="int"/>
+ 			<constructor-arg type="int"><value>200</value></constructor-arg>
+ 		</bean>
+ 		
 
 </beans>
  
