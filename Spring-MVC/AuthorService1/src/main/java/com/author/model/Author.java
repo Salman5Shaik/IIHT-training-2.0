@@ -5,6 +5,14 @@ import java.util.List;
 
 
 public class Author {
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
 	private Integer id;
 	
 	private String userName;
@@ -13,6 +21,14 @@ public class Author {
 	
 	private List<Book> books;
 	
+
+	public Author(Integer id, String userName, String password, List<Book> books) {
+		super();
+		this.id = id;
+		this.userName = userName;
+		this.password = password;
+		this.books = books;
+	}
 
 	public String getUserName() {
 		return userName;
