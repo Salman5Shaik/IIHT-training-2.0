@@ -18,6 +18,13 @@ public class Student {
 	public Student() {
 		super();
 	}
+	
+	public Student(String sName, String sEmail, Integer standard) {
+		super();
+		this.sName = sName;
+		this.sEmail = sEmail;
+		this.standard = standard;
+	}
 
 	public Student(Integer sId, String sName, String sEmail, Integer standard) {
 		super();
